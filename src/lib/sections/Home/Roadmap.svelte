@@ -33,6 +33,7 @@
 </script>
 
 <div id="Roadmap" class="max-[1200px]:!hidden allcenter mt-[150px] flex-col text-white mb-[250px]">
+	<div class="rounded-3xl bg-[#0008] boxblur py-5">
 	<h1 class="mb-4 text-center text-6xl font-bold leading-relaxed">Roadmap</h1>
 
 	<div
@@ -180,6 +181,7 @@
 		<button bind:this={progress} class="roadmap-buttons"> In Progress </button>
 		<button bind:this={scheduled} class="roadmap-buttons"> Scheduled </button>
 		<button bind:this={planned} class="roadmap-buttons"> Planned </button>
+	</div>
 	</div>
 </div>
 
