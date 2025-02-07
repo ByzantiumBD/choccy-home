@@ -26,14 +26,14 @@
 			desc: 'Buy and sell names on Chromia: make it easy for friends to find you!'
 		},
 		{
-			logo: launch,
-			title: 'Choccy Launch',
-			desc: 'Launch your own tokens on Chromia with ease!'
-		},
-		{
 			logo: wallet,
 			title: 'Choccy Wallet',
 			desc: 'A secure and easy-to-use wallet for Chromia.'
+		},
+		{
+			logo: launch,
+			title: 'Choccy Launch',
+			desc: 'Launch your own tokens on Chromia with ease!'
 		},
 		// {
 		// 	logo: announce,
