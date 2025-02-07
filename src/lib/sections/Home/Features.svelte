@@ -2,7 +2,10 @@
 	import zerogas from '$lib/images/home/zerogas.svg';
 	import compatible from '$lib/images/home/compatible.svg';
 	import orderbook from '$lib/images/home/orderbook.svg';
-	import announce from '$lib/images/home/announce.svg';
+	import cns from '$lib/images/home/cns.svg';
+	import launch from '$lib/images/home/launch.svg';
+	import wallet from '$lib/images/home/wallet.svg';
+	// import announce from '$lib/images/home/announce.svg';
 
 	const feats = [
 		{ logo: zerogas, title: 'Zero Gas', desc: 'Using ChoccySwap only involves a liquidity fee.' },
@@ -14,24 +17,29 @@
 		{
 			logo: orderbook,
 			title: 'Orderbook Trading',
-			desc: "You can trade while you're logged off using the orderbook"
+			desc: "You can trade while you're logged off using the orderbook."
 		},
 
 		{
-			logo: announce,
-			title: 'To be announced',
-			desc: 'This feature is going to be announced soon. Stay tuned and follow us to know more!'
+			logo: cns,
+			title: 'Choccy Name System',
+			desc: 'Buy and sell names on Chromia: make it easy for friends to find you!'
 		},
 		{
-			logo: announce,
-			title: 'To be announced',
-			desc: 'This feature is going to be announced soon. Stay tuned and follow us to know more!'
+			logo: wallet,
+			title: 'Choccy Wallet',
+			desc: 'A secure and easy-to-use wallet for Chromia.'
 		},
 		{
-			logo: announce,
-			title: 'To be announced',
-			desc: 'This feature is going to be announced soon. Stay tuned and follow us to know more!'
-		}
+			logo: launch,
+			title: 'Choccy Launch',
+			desc: 'Launch your own tokens on Chromia with ease!'
+		},
+		// {
+		// 	logo: announce,
+		// 	title: 'To be announced',
+		// 	desc: 'This feature is going to be announced soon. Stay tuned and follow us to know more!'
+		// }
 	];
 </script>
 
